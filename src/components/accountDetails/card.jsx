@@ -8,7 +8,7 @@ export const Card = () => {
 
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px' }} >
-            <Container sx={{ padding: { md: 'auto 100px', xs: 'auto 10px' }, color: '#FFFFFF' }}>
+            <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}, color: '#FFFFFF' }} >
                 <Grid container>
                     {Data.map((item, index) =>
                         <Grid key={index} item xs={12} md={4} >

@@ -219,7 +219,7 @@ export const FAQ = () => {
   return (
     <>
       <Box sx={{ display: 'flex', justifyContent: 'center', }}>
-        <Container fixed sx={{ padding: { sm: 'auto 100px', md: 'auto 10px' } }}>
+        <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"} }}>
           <Typography variant="h2" color='#FFFFFF' marginY='50px'>
             FAQ's
           </Typography>

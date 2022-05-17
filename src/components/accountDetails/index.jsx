@@ -1,6 +1,6 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core';
-import { Box, Container, Link, Typography } from '@mui/material';
+import { Box, Container, Divider, Link, Typography } from '@mui/material';
 import { useStyles } from './styles';
 import { Details } from './details';
 import { Card } from './card';
@@ -12,12 +12,12 @@ export const AccountDetails = () => {
 
     return (
         <Box sx={{ display: 'flex', marginTop: '100px' }} >
-            <Container sx={{ padding: { md: 'auto 100px', xs: 'auto 10px' }, color: '#FFFFFF' }}>
+            <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}, color:'#FFFFFF' }}>
                 <Typography variant='h2' mt='50px'>
                     Account Details
                 </Typography>
                 <br />
-                <Box flexDirection={{ xs: 'column', md: 'row' }} sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }} >
+                <Box  divider={<Divider orientation="vertical" flexItem />} flexDirection={{ xs: 'column', md: 'row' }} sx={{ display: 'flex', flexWrap: 'wrap',  alignItems: 'center', justifyContent: 'center' }} >
                     <Box sx={{ display: 'flex', justifyContent: 'center', padding: '10px', }} >
                         <Typography variant='h3' color='#FFFFFF'>
                             Your NRGY wallet address:

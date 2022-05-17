@@ -5,7 +5,7 @@ import { StatDetails } from './count'
 
 export const Statistics = () => {
   return (
-    <Container sx={{ mt: '100px', padding: { md: 'auto 100px', xs: 'auto 10px' }, }}>
+    <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}, mt:'20px' }}>
       <Box position='absolute' sx={{ display: 'flex', ml: '20%' }}>
         <img src={require("../../ui/assets/common/Group 6248.svg").default} alt='' />
       </Box>
