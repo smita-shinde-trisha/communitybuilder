@@ -14,7 +14,7 @@ export const Card = () => {
                         <Grid key={index} item xs={12} md={4} >
                             <Box className={classes.card}>
                                 <Typography variant='h5' textAlign='center'>
-                                    Total Market Maker Staking Balance
+                                   {item.title}
                                 </Typography>
                                 <br />
                                 <Typography variant='h4'>
