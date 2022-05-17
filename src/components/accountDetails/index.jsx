@@ -33,9 +33,7 @@ export const AccountDetails = () => {
                     </Box>
                 </Box>
                 <Details />
-                <Box marginY='50px'>
-                    <Card />
-                </Box>
+                <Card />
                 <Box>
                     <Typography variant='body2'>
                         *Please, double check your inviter address if you're a new user. If not identical, kindly refresh the page to ensure proper credit

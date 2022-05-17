@@ -7,14 +7,14 @@ export const Card = () => {
     const classes = useStyles();
 
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px', overflow:'hidden' }} >
-            <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}, color: '#FFFFFF' }} >
+        <Container fixed sx={{ padding: { xs: '50px auto', md: "100px auto" },}}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px', overflow: 'hidden', color:'#FFFFFF' }} >
                 <Grid container>
                     {Data.map((item, index) =>
                         <Grid key={index} item xs={12} md={4} >
                             <Box className={classes.card}>
                                 <Typography variant='h5' textAlign='center'>
-                                   {item.title}
+                                    {item.title}
                                 </Typography>
                                 <br />
                                 <Typography variant='h4'>
@@ -23,15 +23,9 @@ export const Card = () => {
                             </Box>
                         </Grid>
                     )}
-                    <Box position='absolute' sx={{ display: 'flex', ml: '70%' }}>
-                        <img src={require("../../ui/assets/common/Group 6248.svg").default} alt='' />
-                    </Box>
-                    <Box position='absolute' sx={{ display: 'flex', mt: '42%', ml:'30%' }}>
-                        <img src={require("../../ui/assets/common/Group 6248.svg").default} alt='' />
-                    </Box>
                 </Grid>
-            </Container>
-        </Box>
+            </Box>
+        </Container>
     )
 }
 
