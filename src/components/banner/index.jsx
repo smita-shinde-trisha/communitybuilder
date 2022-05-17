@@ -10,8 +10,8 @@ export const Banner = () => {
             <Box position='relative' display='flex' alignContent='center' justifyContent="center" overflow='hidden' >
                 <Container fixed sx={{ padding: { md: '100px auto', xs: '10px auto' }, display: 'flex', justifyContent: 'center', alignItems: 'center', marginY: '30px' }} >
                     <Grid container sx={{ padding: '100px 0 0 0', flexWrap: 'wrap-reverse', display: 'flex', justifyContent: 'center' }} >
-                        <Grid item xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }} data-aos="fade-down-right" >
-                            <img src={require("../../ui/assets/banner/landing-header-dash.png")} alt='' style={{ width: '80%' }} />
+                        <Grid item xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems:'center' }} data-aos="fade-down-right" >
+                            <img src={require("../../ui/assets/banner/landing-header-dash.png")} alt='' style={{ width:{xs:'100%', md:'80%'} }} />
                         </Grid>
                         <Grid item xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }} data-aos="fade-down-left">
                             <Typography variant='h1' color='#FFFFFF' width={{ xs: '100%', md: '60%' }}>
