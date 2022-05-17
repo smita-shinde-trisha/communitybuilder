@@ -7,8 +7,8 @@ export const Card = () => {
     const classes = useStyles();
 
     return (
-        <Container fixed sx={{ padding: { xs: '50px auto', md: "100px auto" },}}>
-            <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px', overflow: 'hidden', color:'#FFFFFF' }} >
+        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px', overflow: 'hidden', color: '#FFFFFF' }} >
+            <Container fixed sx={{ padding: { xs: '50px auto', md: "100px auto" }, }}>
                 <Grid container>
                     {Data.map((item, index) =>
                         <Grid key={index} item xs={12} md={4} >
@@ -24,8 +24,8 @@ export const Card = () => {
                         </Grid>
                     )}
                 </Grid>
-            </Box>
-        </Container>
+            </Container>
+        </Box>
     )
 }
 

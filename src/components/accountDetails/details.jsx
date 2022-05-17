@@ -4,7 +4,7 @@ import React from 'react'
 export const Details = () => {
     return (
         <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}}}>
-        <Box sx={{ display: { xs: 'block', md: 'flex' }, justifyContent: 'space-between', overflow:'hidden' }}>
+        <Box sx={{ display: { xs: 'block', md: 'flex' }, justifyContent: 'space-between'}}>
             <Box position='absolute' sx={{ display: 'flex', mt: '40%', ml: '-10%' }}>
                 <img src={require("../../ui/assets/common/Group 6248.svg").default} alt='' />
             </Box>
