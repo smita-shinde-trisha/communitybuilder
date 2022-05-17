@@ -38,7 +38,7 @@ export const StakeDetails = () => {
 
     return (
         <>
-            <Container sx={{ padding: { xs: 'auto 50px', md: 'auto 100px', }, mt: '100px' }}>
+            <Container sx={{ padding: { xs: 'auto 10px', md: 'auto 100px', }, mt: '100px' }}>
                 <Grid container >
                     <Grid item xs={12} sm={6} data-aos="zoom-in-up"  >
                         <Box className={classes.box1}>
