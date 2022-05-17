@@ -8,7 +8,6 @@ export const Details = () => {
             <Box position='absolute' sx={{ display: 'flex', mt: '40%', ml: '-10%' }}>
                 <img src={require("../../ui/assets/common/Group 6248.svg").default} alt='' />
             </Box>
-
             <Box marginY='20px' sx={{
                 display: 'flex',
                 flexDirection: 'column',
