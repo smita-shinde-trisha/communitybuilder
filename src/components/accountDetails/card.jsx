@@ -7,7 +7,7 @@ export const Card = () => {
     const classes = useStyles();
 
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px' }} >
+        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '100px', overflow:'hidden' }} >
             <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}, color: '#FFFFFF' }} >
                 <Grid container>
                     {Data.map((item, index) =>

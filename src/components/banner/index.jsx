@@ -7,7 +7,7 @@ export const Banner = () => {
 
     return (
         <>
-            <Box position='relative' display='flex' alignContent='center' justifyContent="center" >
+            <Box position='relative' display='flex' alignContent='center' justifyContent="center" overflow='hidden' >
                 <Container fixed sx={{ padding: { md: '100px auto', xs: '10px auto' }, display: 'flex', justifyContent: 'center', alignItems: 'center', marginY: '30px' }} >
                     <Grid container sx={{ padding: '100px 0 0 0', flexWrap: 'wrap-reverse', display: 'flex', justifyContent: 'center' }} >
                         <Grid item xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }} data-aos="fade-down-right" >

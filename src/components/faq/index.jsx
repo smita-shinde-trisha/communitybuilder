@@ -218,7 +218,7 @@ export const FAQ = () => {
 
   return (
     <>
-      <Box sx={{ display: 'flex', justifyContent: 'center', }}>
+      <Box sx={{ display: 'flex', justifyContent: 'center',overflow:'hidden' }}>
         <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"} }}>
           <Typography variant="h2" color='#FFFFFF' marginY='50px'>
             FAQ's

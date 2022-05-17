@@ -11,7 +11,7 @@ export const AccountDetails = () => {
 
 
     return (
-        <Box sx={{ display: 'flex', marginTop: '100px' }} >
+        <Box sx={{ display: 'flex', marginTop: '100px', overflow:'hidden' }} >
             <Container fixed sx={{ padding:{xs:'50px auto',md:"100px auto"}, color:'#FFFFFF' }}>
                 <Typography variant='h2' mt='50px'>
                     Account Details

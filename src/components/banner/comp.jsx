@@ -9,7 +9,7 @@ export const AccountDetails = () => {
 
 
     return (
-        <Box mt='20px' sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start' }} flexDirection='column' width='100%'
+        <Box mt='20px' sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', overflow:'hidden' }} flexDirection='column' width='100%'
             data-aos="zoom-out-down"
         >
             <Button

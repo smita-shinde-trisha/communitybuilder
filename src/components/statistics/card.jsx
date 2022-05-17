@@ -12,7 +12,7 @@ export const Card = () => {
     const [activeComp, setActiveComp] = React.useState("")
 
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }} >
+        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow:'hidden' }} >
             <Container sx={{ padding: { md: 'auto 100px', xs: 'auto 10px' }, color: '#FFFFFF' }}>
 
                 <Box position='absolute' sx={{ display: 'flex', mt: '40%', ml:'-10%' }}>
