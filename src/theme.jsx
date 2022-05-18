@@ -39,8 +39,8 @@ const theme = {
                     fontFamily: "Open Sans",
                     fontStyle: "normal",
                     fontWeight: 700,
-                    fontSize: "70px",
-                    lineHeight: "70px",
+                    fontSize: "60px",
+                    lineHeight: "60px",
                     [defaultTheme.breakpoints.down(1200)]: {
                         fontSize: "35px",
                         lineHeight: "40px",
@@ -71,10 +71,10 @@ const theme = {
                     fontFamily: "Josefin Sans",
                     fontStyle: "normal",
                     fontWeight: 500,
-                    fontSize: "24px",
-                    lineHeight: "28px",
+                    fontSize: "20px",
+                    lineHeight: "24px",
                     [defaultTheme.breakpoints.down(900)]: {
-                        fontSize: '20px', lineHeight: '25px'
+                        fontSize: '18px', lineHeight: '20px'
                     }
                 },
                 h5: {
@@ -84,7 +84,7 @@ const theme = {
                     fontSize: "20px",
                     lineHeight: "26px",
                     [defaultTheme.breakpoints.down(900)]: {
-                        fontSize: "15px",lineHeight: '20px'
+                        fontSize: "12px",lineHeight: '16px'
                     },
                 },
                 h6: {

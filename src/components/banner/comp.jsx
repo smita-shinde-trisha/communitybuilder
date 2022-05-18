@@ -9,18 +9,16 @@ export const AccountDetails = () => {
 
 
     return (
-        <Box mt='20px' sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', overflow:'hidden' }} flexDirection='column' width='100%'
-            data-aos="zoom-out-down"
+        <Box mt='20px' sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start' }} flexDirection='column'
         >
             <Button
                 sx={{
                     backgroundColor: '#f24d07',
                     borderRadius: '20px',
-                    boxShadow: "0 4px 15px 0 rgba(274, 148 , 39, 0.50)",
-                    backdropFilter: "blur( 3px )",
-                    WebkitBackdropFilter: "blur( 3px )",
+                    boxShadow: "0 2px 10px 0 rgba(274, 148 , 39, 0.50)",
+                    backdropFilter: "blur( 1px )",
+                    WebkitBackdropFilter: "blur( 1px )",
                     border: "1px solid rgba( 255, 255, 255, 0.18 )",
-                    padding: '10px 20px',
                     color: "#ffffff"
                 }}
                 onClick={() => {

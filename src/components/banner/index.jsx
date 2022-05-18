@@ -7,8 +7,8 @@ export const Banner = () => {
 
     return (
         <>
-            <Box position='relative' display='flex' alignContent='center' justifyContent="center" overflow='hidden' >
-                <Container fixed sx={{ padding: { md: '100px auto', xs: '10px auto' }, display: 'flex', justifyContent: 'center', alignItems: 'center', marginY: '30px' }} >
+            <Box position='relative' display='flex' alignContent='center' justifyContent="center">
+                <Container fixed sx={{ padding: { md: '100px auto', xs: '10px auto' }, display: 'flex', justifyContent: 'center', alignItems: 'center', }} >
                     <Grid container sx={{ padding: '100px 0 0 0', flexWrap: 'wrap-reverse', display: 'flex', justifyContent: 'center' }} >
                         <Grid item xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems:'center' }} data-aos="fade-down-right" >
                             <img src={require("../../ui/assets/banner/landing-header-dash.png")} alt='' style={{ width:'90%' }} />
@@ -23,7 +23,7 @@ export const Banner = () => {
                                     <img src={require("../../ui/assets/common/Group 6248.svg").default} alt='' />
                                 </Box>
                             <br />
-                            <Typography variant='h4' color='#EE6328' width={{ xs: '100%', md: '80%' }}>
+                            <Typography variant='h4' color='#EE6328' width={{ xs: '100%', md: '80%' }}> 
                                 Start staking with NRGY to get rewarded.
                                 <br />
                                 For assistance, reach out to your community builder or Telegram Support Channel.
